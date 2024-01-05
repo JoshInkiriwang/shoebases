@@ -95,7 +95,7 @@ for banyak in range(banyak_beli) :
     # Memotong Data dari Input Kode Sepatu
     jenis = kode_sepatu[0:2]
     warna = kode_sepatu[3:5]
-    nomor_prod = int(kode_sepatu[6::]) #Dijadikan integer karena nomor / jumlah produksi per hari
+    nomor_prod = int(kode_sepatu[6::])
     
     #Variabel Harga Satuan Sepatu
     #harga_satuan itu nama function diatas
