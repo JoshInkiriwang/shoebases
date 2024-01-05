@@ -51,6 +51,8 @@ product_list = [
     ["SO", "CL", 160000]
 ]
 
+store_name = "Shoebases"
+
 # Variabel ini untuk Grand Total Harga Sepatu
 total_bayar = 0
 
@@ -58,7 +60,7 @@ total_bayar = 0
 banyak = 0
 
 # Header dari program pembelian sepatu
-header = "\n    " + 5*"=" + " TOKO SEPATU COOL " + 5*"="
+header = "\n    " + 5*"=" + store_name + 5*"="
 
 # Pembatas antar elemen tampilan
 pembatas = 45*"="
