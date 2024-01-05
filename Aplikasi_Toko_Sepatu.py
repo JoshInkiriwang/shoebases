@@ -60,7 +60,7 @@ total_bayar = 0
 banyak = 0
 
 # Header dari program pembelian sepatu
-header = "\n    " + 5*"=" + store_name + 5*"="
+header = "\n" + 5*" = " + store_name + 5*" = "
 
 # Pembatas antar elemen tampilan
 pembatas = 45*"="
