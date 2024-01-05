@@ -85,7 +85,7 @@ for banyak in range(banyak_beli) :
     # Input validation for kode_sepatu
     while True:
         kode_sepatu = input("Masukkan Kode Sepatu = ")
-        if len(kode_sepatu) == 7:
+        if len(kode_sepatu) >= 7:
             break
         else:
             print("Kode Sepatu tidak valid. Silahkan coba lagi.")
